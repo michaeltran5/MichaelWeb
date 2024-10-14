@@ -1,6 +1,6 @@
 {
   "nav": {
-    "logo": "Bentolio",
+    "logo": "Michael Tran",
     "links": [
       {
         "title": "Buy Next.js template",
@@ -8,28 +8,23 @@
       }
     ]
   },
-
   "intro": {
     "heading": "Let’s create dance floor <span class='italic'> magic</span> for your special day",
     "icon": "/icons/intro-icon.svg"
   },
-   
   "portrait": {
     "image": "/portrait.png"
   },
-
   "about": {
     "text": "DJ Lisa is a passionate wedding DJ, acclaimed for blending diverse musical genres with expert crowd-reading skills. Based in Florida, she crafts personalized soundtracks that turn every wedding into an unforgettable celebration.",
     "icon": "/icons/about-icon.svg"
   },
-
   "contact": {
     "label": "Have some questions?",
     "heading": "Contact <span class='italic'>me</span>",
     "linkIcon": "/icons/arrow-icon.svg",
-    "email": "hello@rauftech.com"
+    "email": "michaelttran12@gmail.com"
   },
-
   "work": {
     "projects": [
       {
@@ -41,19 +36,16 @@
         "title": "Cocktail Hour",
         "url": "",
         "media": "/work.png"
-
       },
       {
         "title": "Dinner Music",
         "url": "",
         "media": "/work.png"
-
       },
       {
         "title": "After Party",
         "url": "",
         "media": "/work.png"
-
       },
       {
         "title": "Last Dance",
@@ -61,10 +53,8 @@
         "media": "/work.png"
       }
     ],
-    "linkIcon": "/icons/arrow-icon-black.svg"  
+    "linkIcon": "/icons/arrow-icon-black.svg"
   },
-
- 
   "socials": {
     "links": [
       {
@@ -72,12 +62,12 @@
         "url": "https://www.figma.com/@lilcoderman"
       },
       {
-        "title": "Instagram",
-        "url": "https://www.instagram.com/lilcoderman/"
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/michael-tran-a42aa928a/"
       },
       {
         "title": "Github",
-        "url": "https://github.com/abdulrauf11"
+        "url": "https://github.com/michaeltran5"
       }
     ]
   }
