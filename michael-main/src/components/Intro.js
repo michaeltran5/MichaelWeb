@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Box from './Box';
-
+//icons/intro-icon.svg
 export default function Intro({ data, timeline }) {
   const contentAnimation = delay => {
     timeline

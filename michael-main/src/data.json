@@ -1,23 +1,23 @@
 {
   "nav": {
-    "logo": "Michael Tran",
+    "logo": "Michael Tran | Madison, WI | 608-718-1231",
     "links": [
       {
-        "title": "Buy Next.js template",
-        "url": "https://rauftech.lemonsqueezy.com/buy/43d4f6ca-c525-497f-a77a-8148150335dc"
+        "title": "View My Resume",
+        "url": "/resume2024final.pdf"
       }
     ]
   },
   "intro": {
     "heading": "Let’s create dance floor <span class='italic'> magic</span> for your special day",
-    "icon": "/icons/intro-icon.svg"
+    "icon": ""
   },
   "portrait": {
     "image": "/portrait.png"
   },
   "about": {
     "text": "DJ Lisa is a passionate wedding DJ, acclaimed for blending diverse musical genres with expert crowd-reading skills. Based in Florida, she crafts personalized soundtracks that turn every wedding into an unforgettable celebration.",
-    "icon": "/icons/about-icon.svg"
+    "icon": ""
   },
   "contact": {
     "label": "Have some questions?",
@@ -28,22 +28,22 @@
   "work": {
     "projects": [
       {
-        "title": "First Dance",
+        "title": "Projects",
         "url": "",
         "media": "/work.png"
       },
       {
-        "title": "Cocktail Hour",
+        "title": "MichaelWeb.com",
         "url": "",
         "media": "/work.png"
       },
       {
-        "title": "Dinner Music",
+        "title": "badgergrades.com",
         "url": "",
         "media": "/work.png"
       },
       {
-        "title": "After Party",
+        "title": "154tattoo.com",
         "url": "",
         "media": "/work.png"
       },
@@ -57,10 +57,6 @@
   },
   "socials": {
     "links": [
-      {
-        "title": "Figma",
-        "url": "https://www.figma.com/@lilcoderman"
-      },
       {
         "title": "LinkedIn",
         "url": "https://www.linkedin.com/in/michael-tran-a42aa928a/"

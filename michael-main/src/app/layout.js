@@ -3,9 +3,9 @@ import Global from '@/components/Global';
 import './globals.css';
 
 export const metadata = {
-  title: 'Bentolio',
+  title: 'MichaelWeb',
   description:
-    'Bentolio is a clean and customizable portfolio template built on Bento Grids, perfect for showcasing your work.',
+    'MichaelWeb is a personal coder portfolio for Michael Tran a Senior at the University of Wisconsin - Madison.',
 };
 
 const fontHeading = DM_Serif_Display({
