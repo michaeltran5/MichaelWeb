@@ -9,14 +9,14 @@
     ]
   },
   "intro": {
-    "heading": "Let’s create dance floor <span class='italic'> magic</span> for your special day",
+    "heading": "I am Michael Tran, a senior at the University of Wisconsin - Madison.",
     "icon": ""
   },
   "portrait": {
     "image": "/portrait.png"
   },
   "about": {
-    "text": "DJ Lisa is a passionate wedding DJ, acclaimed for blending diverse musical genres with expert crowd-reading skills. Based in Florida, she crafts personalized soundtracks that turn every wedding into an unforgettable celebration.",
+    "text": "I am seeking work as a software developer. I have a deep passion for design and would love to create better UI experiences for as many users as possible.",
     "icon": ""
   },
   "contact": {
@@ -30,27 +30,22 @@
       {
         "title": "Projects",
         "url": "",
-        "media": "/work.png"
+        "media": ""
       },
       {
         "title": "MichaelWeb.com",
         "url": "",
-        "media": "/work.png"
+        "media": ""
       },
       {
         "title": "badgergrades.com",
-        "url": "https://arianabbaszadeh.github.io/badger-grades",
-        "media": "/work.png"
+        "url": "https://badgergrades.com",
+        "media": ""
       },
       {
         "title": "154tattoo.com",
         "url": "https://michaeltran5.github.io/154test",
         "media": "/bannerfinal.png"
-      },
-      {
-        "title": "Last Dance",
-        "url": "",
-        "media": "/work.png"
       }
     ],
     "linkIcon": "/icons/arrow-icon-black.svg"
