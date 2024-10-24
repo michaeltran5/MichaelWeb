@@ -2,9 +2,14 @@
   "name": "bentolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://michaeltran5.github.io/MichaelWeb",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -21,16 +26,5 @@
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.1"
-  },
-  "name": "bentolio",
-  "version": "0.1.0",
-  "homepage": "https://michaeltran5.github.io/MichaelWeb",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
   }
 }

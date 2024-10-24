@@ -1,14 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
     images: {
-        unoptimized: true
-    },
-    basePath: '/michael-main',
-    assetPrefix: '/michael-main',
-    trailingSlash: true,
-    distDir: 'dist',   // Optional: specifies build output directory
-    reactStrictMode: true,  // Good practice to keep this enabled
-};
+        unoptimized: true,
+    }
+}
 
-export default nextConfig;
+module.exports = nextConfig
