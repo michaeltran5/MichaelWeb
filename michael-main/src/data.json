@@ -33,19 +33,14 @@
         "media": ""
       },
       {
-        "title": "MichaelWeb.com",
-        "url": "",
-        "media": ""
-      },
-      {
         "title": "badgergrades.com",
         "url": "https://badgergrades.com",
-        "media": ""
+        "media": "/uwmad.png"
       },
       {
         "title": "154tattoo.com",
         "url": "https://michaeltran5.github.io/154test",
-        "media": "/bannerfinal.png"
+        "media": "/154photo.png"
       }
     ],
     "linkIcon": "/icons/arrow-icon-black.svg"

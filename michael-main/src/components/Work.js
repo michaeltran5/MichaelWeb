@@ -70,47 +70,32 @@ const ProjectItem = ({
           <span className='work-heading block pb-[2px]'>{project?.title}</span>
         </h3>
         {/* Arrow Link */}
+
+      </div>
+
+      {/* Thumbnail */}
+      {(project?.title || '').toLowerCase() !== 'projects' && (
         <a
           href={project?.url}
           target='_blank'
           rel='noopener noreferrer'
-          className={'pointer-events-auto inline-block px-2'}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          className={`${index === 0 ? 'mt-4 h-auto' : 'h-0'} thumbnail pointer-events-auto relative block aspect-[3/2] w-full origin-top overflow-hidden rounded-[16px] bg-secondary`}
         >
-          {linkIcon && (
+          {project?.media && (
             <Image
-              src={linkIcon}
-              width={16}
-              height={16}
-              alt='arrow'
-              className={`${index === 0 ? 'opacity-1' : 'opacity-0'} arrow size-[0.9rem]`}
+              src={project.media}
+              alt='project photos'
+              fill={true}
+              className='object-cover transition-transform duration-700 ease-out hover:scale-105'
+              priority={index === 0 ? true : false}
+              placeholder='blur'
+              blurDataURL={BLUR_DATA_URL}
             />
           )}
         </a>
-      </div>
-
-      {/* Thumbnail */}
-      <a
-        href={project?.url}
-        target='_blank'
-        rel='noopener noreferrer'
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        className={`${index === 0 ? 'mt-4 h-auto' : 'h-0'} thumbnail pointer-events-auto relative block aspect-[3/2] w-full origin-top overflow-hidden rounded-[16px] bg-secondary`}
-      >
-        {project?.media && (
-          <Image
-            src={project.media}
-            alt='bride and groom'
-            fill={true}
-            className='object-cover transition-transform duration-700 ease-out hover:scale-105'
-            priority={index === 0 ? true : false}
-            placeholder='blur'
-            blurDataURL={BLUR_DATA_URL}
-          />
-        )}
-      </a>
+      )}
 
       {/* Border */}
       {!isLast && (

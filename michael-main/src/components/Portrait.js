@@ -18,7 +18,7 @@ export default function Portrait({ data, timeline }) {
             src={data.image}
             fill={true}
             alt='photo of michael tran'
-            className='h-full w-full object-contain object-bottom'
+            className='h-full w-full object-cover object-bottom'
             priority={true}
             placeholder='blur'
             blurDataURL={BLUR_DATA_URL}
@@ -35,8 +35,8 @@ export default function Portrait({ data, timeline }) {
             <Image
               src={data.image}
               fill={true}
-              alt='black woman'
-              className='h-full w-full object-contain object-bottom'
+              alt='a photo of michael tran'
+              className='h-full w-full object-cover object-bottom'
               priority={true}
               placeholder='blur'
               blurDataURL={BLUR_DATA_URL}
