@@ -1,10 +1,11 @@
 const nextConfig = {
     output: 'export',
-    basePath: process.env.NODE_ENV === 'production' ? '/MichaelWeb' : '',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/MichaelWeb/' : '',
+    basePath: '/MichaelWeb',
+    assetPrefix: '/MichaelWeb/',
     images: {
         unoptimized: true,
     },
+    trailingSlash: true,
 }
 
-export default nextConfig;  // Not
+export default nextConfig

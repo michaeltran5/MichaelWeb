@@ -4,7 +4,7 @@
     "links": [
       {
         "title": "View My Resume",
-        "url": "/resume2024final.pdf"
+        "url": "./resume2024final.pdf"
       }
     ]
   },
@@ -13,7 +13,7 @@
     "icon": ""
   },
   "portrait": {
-    "image": "/portrait.png"
+    "image": "./portrait.png"
   },
   "about": {
     "text": "I am seeking work as a software developer. I have a deep passion for design and would love to create better UI experiences for as many users as possible.",
@@ -22,7 +22,7 @@
   "contact": {
     "label": "Have some questions?",
     "heading": "Contact <span class='italic'>me</span>",
-    "linkIcon": "/icons/arrow-icon.svg",
+    "linkIcon": "./icons/arrow-icon.svg",
     "email": "michaelttran12@gmail.com"
   },
   "work": {
@@ -35,15 +35,15 @@
       {
         "title": "badgergrades.com",
         "url": "https://badgergrades.com",
-        "media": "/uwmad.png"
+        "media": "./uwmad.png"
       },
       {
         "title": "154tattoo.com",
         "url": "https://michaeltran5.github.io/154test",
-        "media": "/154photo.png"
+        "media": "./154photo.png"
       }
     ],
-    "linkIcon": "/icons/arrow-icon-black.svg"
+    "linkIcon": "./icons/arrow-icon-black.svg"
   },
   "socials": {
     "links": [

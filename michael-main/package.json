@@ -4,12 +4,11 @@
   "private": true,
   "homepage": "https://michaeltran5.github.io/MichaelWeb",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "predeploy": "npm run build",
+    "deploy": "touch out/.nojekyll && gh-pages --dist out --dotfiles true"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",

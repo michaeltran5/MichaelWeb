@@ -27,6 +27,9 @@ const fontBody = DM_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className='hide-scrollbar'>
+      <head>
+        <base href={process.env.NODE_ENV === 'production' ? '/MichaelWeb/' : '/'} />
+      </head>
       <body
         className={`${fontHeading.variable} ${fontBody.variable} antialiased`}
       >
