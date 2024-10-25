@@ -1,7 +1,7 @@
 const nextConfig = {
     output: 'export',
-    basePath: process.env.NODE_ENV === 'production' ? '/<repository-name>' : '',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/<repository-name>/' : '',
+    basePath: process.env.NODE_ENV === 'production' ? '/MichaelWeb' : '',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/MichaelWeb/' : '',
     images: {
         unoptimized: true,
     },
