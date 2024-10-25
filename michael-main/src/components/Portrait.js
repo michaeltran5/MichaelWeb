@@ -33,7 +33,7 @@ export default function Portrait({ data, timeline }) {
         >
           {data?.image && (
             <Image
-              src={data.image.replace('./michael-main/public', '')}
+              src={data.image}
               fill={true}
               alt='a photo of michael tran'
               className='h-full w-full object-cover object-bottom'
