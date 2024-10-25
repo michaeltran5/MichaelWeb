@@ -10,13 +10,13 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./michael-main  # This matches your project structure
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,15 +27,19 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          echo "Installing dependencies in $(pwd)"
+          npm install
 
       - name: Build Next.js app
-        run: npm run build
+        run: |
+          echo "Building in $(pwd)"
+          npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./michael-main/out
 
   deploy:
     needs: build
