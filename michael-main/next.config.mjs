@@ -4,6 +4,9 @@ const nextConfig = {
     assetPrefix: '/MichaelWeb/',
     images: {
         unoptimized: true,
+        remotePatterns: [],
+        loader: 'custom',
+        loaderFile: './image-loader.js'
     },
     trailingSlash: true,
 }

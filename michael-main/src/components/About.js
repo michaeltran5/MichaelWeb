@@ -24,7 +24,7 @@ export default function About({ data, timeline }) {
         <div className='size-[2.75rem]'>
           {data?.icon && (
             <Image
-              src={data.icon}
+              src={data.icon.replace('./michael-main/public', '')}
               width={48}
               height={48}
               alt='disk'
