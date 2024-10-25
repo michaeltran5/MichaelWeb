@@ -13,33 +13,38 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./michael-main  # This matches your project structure
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Debug directory structure
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Directory contents:"
+          ls -la
+          echo "Michael-main contents:"
+          ls -la michael-main/
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install dependencies
+      - name: Navigate to project directory and install
         run: |
-          echo "Installing dependencies in $(pwd)"
+          cd michael-main
           npm install
 
-      - name: Build Next.js app
+      - name: Build
         run: |
-          echo "Building in $(pwd)"
+          cd michael-main
           npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./michael-main/out
+          path: michael-main/out
 
   deploy:
     needs: build
