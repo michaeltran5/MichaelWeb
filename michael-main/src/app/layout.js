@@ -1,6 +1,8 @@
 import { DM_Sans, DM_Serif_Display } from 'next/font/google';
 import Global from '@/components/Global';
 import './globals.css';
+import { Analytics } from "@vercel/analytics/react"
+
 
 export const metadata = {
   title: 'MichaelWeb',
@@ -32,6 +34,8 @@ export default function RootLayout({ children }) {
       >
         <Global />
         {children}
+        <Analytics />
+
       </body>
     </html>
   );
