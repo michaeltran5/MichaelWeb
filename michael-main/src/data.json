@@ -4,7 +4,7 @@
     "links": [
       {
         "title": "View My Resume",
-        "url": "/resume2024final.pdf"
+        "url": "/resumeforsite.pdf"
       }
     ]
   },
@@ -16,7 +16,7 @@
     "image": "/portrait.png"
   },
   "about": {
-    "text": "I am seeking work as a software developer. I have a deep passion for design and would love to create better UI experiences for as many users as I can.",
+    "text": "I'm a CS student who combines full-stack development expertise with practical experience, having built multiple high-impact web applications and improved processes as a Quality Assurance Intern at Promega. My diverse skill set spans from React and Java to mobile development, allowing me to create efficient solutions while finding innovative ways to serve both clients and my peers.",
     "icon": ""
   },
   "contact": {
@@ -45,6 +45,11 @@
       {
         "title": "International House of Programmers",
         "media": "/win.png"
+      },
+      {
+        "title": "Statify",
+        "url": "https://github.com/michaeltran5/Statify",
+        "media": "/statbanner.png"
       }
     ],
     "linkIcon": "/icons/arrow-icon-black.svg"
