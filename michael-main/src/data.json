@@ -1,22 +1,22 @@
 {
   "nav": {
-    "logo": "Michael Tran | Madison, WI",
+    "logo": "Michael Tran | Chicago, IL",
     "links": [
       {
         "title": "View My Resume",
-        "url": "/resumeforsite.pdf"
+        "url": "/resume2025.pdf"
       }
     ]
   },
   "intro": {
-    "heading": "I am Michael Tran, a senior at the University of Wisconsin - Madison.",
+    "heading": "I am Michael Tran, a recent graduate of the University of Wisconsin - Madison.",
     "icon": ""
   },
   "portrait": {
     "image": "/portrait.png"
   },
   "about": {
-    "text": "I'm a CS student who combines full-stack development expertise with practical experience, having built multiple high-impact web applications and improved processes as a Quality Assurance Intern at Promega. My diverse skill set spans from React and Java to mobile development, allowing me to create efficient solutions while finding innovative ways to serve both clients and my peers.",
+    "text": "I am a developer with a passion for building. It has always been a dream of mine to contribute to something larger than me and through coding I have found that. ",
     "icon": ""
   },
   "contact": {
@@ -58,7 +58,7 @@
     "links": [
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/michael-tran-a42aa928a/"
+        "url": "https://www.linkedin.com/in/miketran1/"
       },
       {
         "title": "Github",
